@@ -20,6 +20,7 @@ namespace SICORIS.SGA.Data
                     casoRegistro.fecha_usuario_modificacion = DateTime.Now;
                     cdc.SubmitChanges();
 					---prueba
+					--como
 
                     int cod_catalogo_movimiento = Convert.ToInt32(TiposEstados.CambioEstado);
                     CASO_HISTORIAL.Guardar(cod_caso_registro, cod_catalogo_movimiento, cod_catalogo_estado_previo, cod_catalogo_estado_actual, observacion, cod_usuario_modificacion);
